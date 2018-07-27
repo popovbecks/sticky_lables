@@ -22,11 +22,12 @@ body{
 .labelFirst{
     position: sticky;
     top:0;
+    left:0;
     color: #fcfef9;
     font-size: 20px;
     border-bottom: 1px solid #fcfef9;
     background-color:#2b3d51;
-    transition: opacity .7s,top .3s;
+    transition: opacity .7s;
 }
 .label{
     color: #fcfef9;
@@ -34,24 +35,15 @@ body{
     border-bottom: 1px solid #fcfef9;
     background-color:#2b3d51;
     opacity: 1;
-    transition: opacity 0.7s;
     display:block;
-    transition: opacity 1s, height 5s;
+    transition: opacity 1s, ;
 }
 li{
     color: #9ca6b0;
 }
 
 .hide{
-
     opacity:0;
     transition: opacity .7s, height 1s;
 }
 
-.labelFirst.hide-first{
-    top:0px;
-    transition: top .5s;
-}
-.no-transition{
-    transition: none !important;
-}

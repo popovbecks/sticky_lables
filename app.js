@@ -12,10 +12,9 @@ function getCoords() {
          if (list.scrollTop > (labels[i].offsetTop - list.offsetTop) - 23) {
 
              labelFirst.classList.add('hide');
-             //labels[i].classList.add('hide');
          }
 
-         if(list.scrollTop > (labels[i].offsetTop - list.offsetTop)){
+         if(list.scrollTop > (labels[i].offsetTop - list.offsetTop)-1){
 
              labels[i].classList.add('hide');
              labelFirst.innerHTML = labels[i].innerHTML;
@@ -24,7 +23,7 @@ function getCoords() {
          } else{
              labels[i].classList.remove('hide');
          }
-         if(list.scrollTop < (labels[0].offsetTop - list.offsetTop)-22) {
+         if(list.scrollTop < (labels[0].offsetTop - list.offsetTop)-23) {
              labelFirst.innerHTML = temp;
              labelFirst.classList.remove('hide');
          }
