@@ -22,7 +22,7 @@ body {
     height: 300px;
 }
 
-.labelFirst {
+.label {
     position: sticky;
     top: 0;
     left: 0;
@@ -33,21 +33,6 @@ body {
     transition: opacity .7s;
 }
 
-.label {
-    color: #fcfef9;
-    font-size: 20px;
-    border-bottom: 1px solid #fcfef9;
-    background-color: #2b3d51;
-    opacity: 1;
-    display: block;
-    transition: opacity 1s, ;
-}
-
 li {
     color: #9ca6b0;
-}
-
-.hide {
-    opacity: 0;
-    /* transition: opacity .7s, height 1s; */
 }
